@@ -1,0 +1,2 @@
+com/example/nativeandroid/BuildConfig.java
+ com.example.nativeandroid.BuildConfig

@@ -1,0 +1,35 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_boost (0.0.2):
+    - Flutter
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+    - flutter_boost
+  - my_flutter (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `../my_flutter/.ios/Flutter/engine`)
+  - flutter_boost (from `../my_flutter/.ios/.symlinks/plugins/flutter_boost/ios`)
+  - FlutterPluginRegistrant (from `../my_flutter/.ios/Flutter/FlutterPluginRegistrant`)
+  - my_flutter (from `../my_flutter/.ios/Flutter`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: "../my_flutter/.ios/Flutter/engine"
+  flutter_boost:
+    :path: "../my_flutter/.ios/.symlinks/plugins/flutter_boost/ios"
+  FlutterPluginRegistrant:
+    :path: "../my_flutter/.ios/Flutter/FlutterPluginRegistrant"
+  my_flutter:
+    :path: "../my_flutter/.ios/Flutter"
+
+SPEC CHECKSUMS:
+  Flutter: ac41d61a47ae5bf8195a5598d2d63754888ec0d5
+  flutter_boost: 1b5f53a54ba73726829691db891e85f40b4f6494
+  FlutterPluginRegistrant: 03a06fa5f754c611bb6c96f42acf9432e8c4515d
+  my_flutter: 5f71a42a61a499a9f322f2c0f62fc185a5807c9b
+
+PODFILE CHECKSUM: e0dacb276a9e293c08365936ba207c85e89bb333
+
+COCOAPODS: 1.10.2

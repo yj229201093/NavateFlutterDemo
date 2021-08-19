@@ -1,0 +1,185 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/yangjian/Documents/Demo/demo/NativeAndroid/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/yangjian/Documents/Demo/demo/NativeAndroid/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/yangjian/Documents/Demo/demo/NativeAndroid/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/yangjian/Documents/Demo/demo/NativeAndroid/app/src/main/AndroidManifest.xml:2:1-23:12
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/yangjian/.gradle/caches/transforms-3/2ae071a20af21b0eab3fba04603e06d3/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.material:material:1.4.0] /Users/yangjian/.gradle/caches/transforms-3/b3a1b10170dc3b0d106f5a2151e726da/transformed/material-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /Users/yangjian/.gradle/caches/transforms-3/793820e7ab749e289a6dfadebd25f7a8/transformed/constraintlayout-2.1.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/yangjian/.gradle/caches/transforms-3/61acccfaa5da4b0e583a74dfb4979cab/transformed/appcompat-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/yangjian/.gradle/caches/transforms-3/93a46ec76b5dbff36cd15eef62f6695c/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/yangjian/.gradle/caches/transforms-3/798cfbf5c4e6d531e7ee2fb1e3e48321/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] /Users/yangjian/.gradle/caches/transforms-3/37fd7562e6b0ddaaa35a21781854ae1d/transformed/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/yangjian/.gradle/caches/transforms-3/93b562d80bb9f52548458110fe3a510b/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/yangjian/.gradle/caches/transforms-3/9f3f70fe3c5748f47a60d6df968b472b/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/yangjian/.gradle/caches/transforms-3/b5e4aec913c998c2c6b5b69c7b85b336/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/yangjian/.gradle/caches/transforms-3/171e5935551f5d89958ee9a4251cef3a/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/yangjian/.gradle/caches/transforms-3/9a6ba5868ffa21e3a502d3b6d1546e24/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/yangjian/.gradle/caches/transforms-3/33a73de36ff91b4481bcbf823554dde6/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/yangjian/.gradle/caches/transforms-3/ac54c9e26f63dfb8bb8bf158b2fa48c5/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yangjian/.gradle/caches/transforms-3/334ee10e193b8bbdd77482f85dc62e54/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/yangjian/.gradle/caches/transforms-3/20ca16fca85f4b2a4984298eb74f0520/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/yangjian/.gradle/caches/transforms-3/78d86d3ffb2a95636c992f4c00fedd82/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/yangjian/.gradle/caches/transforms-3/1a6c2cfe6e08007d4aabde446059d675/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/yangjian/.gradle/caches/transforms-3/6dfef288d5aeac785249c5e283668e6b/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] /Users/yangjian/.gradle/caches/transforms-3/55610e6da332357fac2ae4dc08261766/transformed/core-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/yangjian/.gradle/caches/transforms-3/c836c6e09b32f781302c2d82c41a67f3/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/yangjian/.gradle/caches/transforms-3/0db9a459d00b28ae4bf0f68cbf9b0403/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/yangjian/.gradle/caches/transforms-3/c7d56aac42a83c569a3c9407e05f4e14/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/yangjian/.gradle/caches/transforms-3/508005d3b0650c4e16a1a2c503d38b1c/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/yangjian/.gradle/caches/transforms-3/54f87c9117341ab6f00d0bd7ac140546/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/yangjian/.gradle/caches/transforms-3/f2aa32899dd0d92b8e2019bd76f2777e/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yangjian/.gradle/caches/transforms-3/b81b1ab99a616afc06a427b981a57a9b/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/yangjian/.gradle/caches/transforms-3/93043ba4efcb0a4d2c175dd094557e68/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/yangjian/.gradle/caches/transforms-3/39cbd935e0730fa90c010349dbaf5143/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/yangjian/.gradle/caches/transforms-3/fb02655388e1efa90286795986682d0d/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/yangjian/.gradle/caches/transforms-3/9b849fca4b83e9149fca3748c2b17d26/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yangjian/.gradle/caches/transforms-3/32fcf832b1a1f59d89039bfa7168020c/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yangjian/.gradle/caches/transforms-3/cbfdc8e0dd6c76a45b3b9b082003e820/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/yangjian/.gradle/caches/transforms-3/11f03cc4cb081c4ca55734a430f8a6e3/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/yangjian/.gradle/caches/transforms-3/9f618cadd33348184d9a5e292d0a8872/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/yangjian/.gradle/caches/transforms-3/5486cfd0eaf0289acc7e8bd8ff9badf5/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/yangjian/Documents/Demo/demo/NativeAndroid/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/yangjian/Documents/Demo/demo/NativeAndroid/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/yangjian/Documents/Demo/demo/NativeAndroid/app/src/main/AndroidManifest.xml:2:1-23:12
+	package
+		ADDED from /Users/yangjian/Documents/Demo/demo/NativeAndroid/app/src/main/AndroidManifest.xml:3:5-40
+		INJECTED from /Users/yangjian/Documents/Demo/demo/NativeAndroid/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yangjian/Documents/Demo/demo/NativeAndroid/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/yangjian/Documents/Demo/demo/NativeAndroid/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yangjian/Documents/Demo/demo/NativeAndroid/app/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /Users/yangjian/Documents/Demo/demo/NativeAndroid/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/yangjian/Documents/Demo/demo/NativeAndroid/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yangjian/Documents/Demo/demo/NativeAndroid/app/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /Users/yangjian/Documents/Demo/demo/NativeAndroid/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/yangjian/Documents/Demo/demo/NativeAndroid/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/yangjian/Documents/Demo/demo/NativeAndroid/app/src/main/AndroidManifest.xml:5:5-21:19
+MERGED from [com.google.android.material:material:1.4.0] /Users/yangjian/.gradle/caches/transforms-3/b3a1b10170dc3b0d106f5a2151e726da/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] /Users/yangjian/.gradle/caches/transforms-3/b3a1b10170dc3b0d106f5a2151e726da/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /Users/yangjian/.gradle/caches/transforms-3/793820e7ab749e289a6dfadebd25f7a8/transformed/constraintlayout-2.1.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /Users/yangjian/.gradle/caches/transforms-3/793820e7ab749e289a6dfadebd25f7a8/transformed/constraintlayout-2.1.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.6.0] /Users/yangjian/.gradle/caches/transforms-3/55610e6da332357fac2ae4dc08261766/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] /Users/yangjian/.gradle/caches/transforms-3/55610e6da332357fac2ae4dc08261766/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yangjian/.gradle/caches/transforms-3/b81b1ab99a616afc06a427b981a57a9b/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yangjian/.gradle/caches/transforms-3/b81b1ab99a616afc06a427b981a57a9b/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] /Users/yangjian/.gradle/caches/transforms-3/55610e6da332357fac2ae4dc08261766/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/yangjian/Documents/Demo/demo/NativeAndroid/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Users/yangjian/Documents/Demo/demo/NativeAndroid/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /Users/yangjian/Documents/Demo/demo/NativeAndroid/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /Users/yangjian/Documents/Demo/demo/NativeAndroid/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/yangjian/Documents/Demo/demo/NativeAndroid/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/yangjian/Documents/Demo/demo/NativeAndroid/app/src/main/AndroidManifest.xml:11:9-51
+activity#com.example.nativeandroid.MainActivity
+ADDED from /Users/yangjian/Documents/Demo/demo/NativeAndroid/app/src/main/AndroidManifest.xml:12:9-20:20
+	android:exported
+		ADDED from /Users/yangjian/Documents/Demo/demo/NativeAndroid/app/src/main/AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from /Users/yangjian/Documents/Demo/demo/NativeAndroid/app/src/main/AndroidManifest.xml:13:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/yangjian/Documents/Demo/demo/NativeAndroid/app/src/main/AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from /Users/yangjian/Documents/Demo/demo/NativeAndroid/app/src/main/AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from /Users/yangjian/Documents/Demo/demo/NativeAndroid/app/src/main/AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/yangjian/Documents/Demo/demo/NativeAndroid/app/src/main/AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from /Users/yangjian/Documents/Demo/demo/NativeAndroid/app/src/main/AndroidManifest.xml:18:27-74
+uses-sdk
+INJECTED from /Users/yangjian/Documents/Demo/demo/NativeAndroid/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/yangjian/Documents/Demo/demo/NativeAndroid/app/src/main/AndroidManifest.xml
+INJECTED from /Users/yangjian/Documents/Demo/demo/NativeAndroid/app/src/main/AndroidManifest.xml
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/yangjian/.gradle/caches/transforms-3/2ae071a20af21b0eab3fba04603e06d3/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/yangjian/.gradle/caches/transforms-3/2ae071a20af21b0eab3fba04603e06d3/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.4.0] /Users/yangjian/.gradle/caches/transforms-3/b3a1b10170dc3b0d106f5a2151e726da/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] /Users/yangjian/.gradle/caches/transforms-3/b3a1b10170dc3b0d106f5a2151e726da/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /Users/yangjian/.gradle/caches/transforms-3/793820e7ab749e289a6dfadebd25f7a8/transformed/constraintlayout-2.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /Users/yangjian/.gradle/caches/transforms-3/793820e7ab749e289a6dfadebd25f7a8/transformed/constraintlayout-2.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/yangjian/.gradle/caches/transforms-3/61acccfaa5da4b0e583a74dfb4979cab/transformed/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/yangjian/.gradle/caches/transforms-3/61acccfaa5da4b0e583a74dfb4979cab/transformed/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/yangjian/.gradle/caches/transforms-3/93a46ec76b5dbff36cd15eef62f6695c/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/yangjian/.gradle/caches/transforms-3/93a46ec76b5dbff36cd15eef62f6695c/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/yangjian/.gradle/caches/transforms-3/798cfbf5c4e6d531e7ee2fb1e3e48321/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/yangjian/.gradle/caches/transforms-3/798cfbf5c4e6d531e7ee2fb1e3e48321/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/yangjian/.gradle/caches/transforms-3/37fd7562e6b0ddaaa35a21781854ae1d/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/yangjian/.gradle/caches/transforms-3/37fd7562e6b0ddaaa35a21781854ae1d/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/yangjian/.gradle/caches/transforms-3/93b562d80bb9f52548458110fe3a510b/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/yangjian/.gradle/caches/transforms-3/93b562d80bb9f52548458110fe3a510b/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/yangjian/.gradle/caches/transforms-3/9f3f70fe3c5748f47a60d6df968b472b/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/yangjian/.gradle/caches/transforms-3/9f3f70fe3c5748f47a60d6df968b472b/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/yangjian/.gradle/caches/transforms-3/b5e4aec913c998c2c6b5b69c7b85b336/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/yangjian/.gradle/caches/transforms-3/b5e4aec913c998c2c6b5b69c7b85b336/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/yangjian/.gradle/caches/transforms-3/171e5935551f5d89958ee9a4251cef3a/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/yangjian/.gradle/caches/transforms-3/171e5935551f5d89958ee9a4251cef3a/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/yangjian/.gradle/caches/transforms-3/9a6ba5868ffa21e3a502d3b6d1546e24/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/yangjian/.gradle/caches/transforms-3/9a6ba5868ffa21e3a502d3b6d1546e24/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/yangjian/.gradle/caches/transforms-3/33a73de36ff91b4481bcbf823554dde6/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/yangjian/.gradle/caches/transforms-3/33a73de36ff91b4481bcbf823554dde6/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/yangjian/.gradle/caches/transforms-3/ac54c9e26f63dfb8bb8bf158b2fa48c5/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/yangjian/.gradle/caches/transforms-3/ac54c9e26f63dfb8bb8bf158b2fa48c5/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yangjian/.gradle/caches/transforms-3/334ee10e193b8bbdd77482f85dc62e54/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yangjian/.gradle/caches/transforms-3/334ee10e193b8bbdd77482f85dc62e54/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/yangjian/.gradle/caches/transforms-3/20ca16fca85f4b2a4984298eb74f0520/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/yangjian/.gradle/caches/transforms-3/20ca16fca85f4b2a4984298eb74f0520/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/yangjian/.gradle/caches/transforms-3/78d86d3ffb2a95636c992f4c00fedd82/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/yangjian/.gradle/caches/transforms-3/78d86d3ffb2a95636c992f4c00fedd82/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/yangjian/.gradle/caches/transforms-3/1a6c2cfe6e08007d4aabde446059d675/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/yangjian/.gradle/caches/transforms-3/1a6c2cfe6e08007d4aabde446059d675/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/yangjian/.gradle/caches/transforms-3/6dfef288d5aeac785249c5e283668e6b/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/yangjian/.gradle/caches/transforms-3/6dfef288d5aeac785249c5e283668e6b/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] /Users/yangjian/.gradle/caches/transforms-3/55610e6da332357fac2ae4dc08261766/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /Users/yangjian/.gradle/caches/transforms-3/55610e6da332357fac2ae4dc08261766/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/yangjian/.gradle/caches/transforms-3/c836c6e09b32f781302c2d82c41a67f3/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/yangjian/.gradle/caches/transforms-3/c836c6e09b32f781302c2d82c41a67f3/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/yangjian/.gradle/caches/transforms-3/0db9a459d00b28ae4bf0f68cbf9b0403/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/yangjian/.gradle/caches/transforms-3/0db9a459d00b28ae4bf0f68cbf9b0403/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/yangjian/.gradle/caches/transforms-3/c7d56aac42a83c569a3c9407e05f4e14/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/yangjian/.gradle/caches/transforms-3/c7d56aac42a83c569a3c9407e05f4e14/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/yangjian/.gradle/caches/transforms-3/508005d3b0650c4e16a1a2c503d38b1c/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/yangjian/.gradle/caches/transforms-3/508005d3b0650c4e16a1a2c503d38b1c/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/yangjian/.gradle/caches/transforms-3/54f87c9117341ab6f00d0bd7ac140546/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/yangjian/.gradle/caches/transforms-3/54f87c9117341ab6f00d0bd7ac140546/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/yangjian/.gradle/caches/transforms-3/f2aa32899dd0d92b8e2019bd76f2777e/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/yangjian/.gradle/caches/transforms-3/f2aa32899dd0d92b8e2019bd76f2777e/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yangjian/.gradle/caches/transforms-3/b81b1ab99a616afc06a427b981a57a9b/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yangjian/.gradle/caches/transforms-3/b81b1ab99a616afc06a427b981a57a9b/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/yangjian/.gradle/caches/transforms-3/93043ba4efcb0a4d2c175dd094557e68/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/yangjian/.gradle/caches/transforms-3/93043ba4efcb0a4d2c175dd094557e68/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/yangjian/.gradle/caches/transforms-3/39cbd935e0730fa90c010349dbaf5143/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/yangjian/.gradle/caches/transforms-3/39cbd935e0730fa90c010349dbaf5143/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/yangjian/.gradle/caches/transforms-3/fb02655388e1efa90286795986682d0d/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/yangjian/.gradle/caches/transforms-3/fb02655388e1efa90286795986682d0d/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/yangjian/.gradle/caches/transforms-3/9b849fca4b83e9149fca3748c2b17d26/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/yangjian/.gradle/caches/transforms-3/9b849fca4b83e9149fca3748c2b17d26/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yangjian/.gradle/caches/transforms-3/32fcf832b1a1f59d89039bfa7168020c/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yangjian/.gradle/caches/transforms-3/32fcf832b1a1f59d89039bfa7168020c/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yangjian/.gradle/caches/transforms-3/cbfdc8e0dd6c76a45b3b9b082003e820/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yangjian/.gradle/caches/transforms-3/cbfdc8e0dd6c76a45b3b9b082003e820/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/yangjian/.gradle/caches/transforms-3/11f03cc4cb081c4ca55734a430f8a6e3/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/yangjian/.gradle/caches/transforms-3/11f03cc4cb081c4ca55734a430f8a6e3/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/yangjian/.gradle/caches/transforms-3/9f618cadd33348184d9a5e292d0a8872/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/yangjian/.gradle/caches/transforms-3/9f618cadd33348184d9a5e292d0a8872/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/yangjian/.gradle/caches/transforms-3/5486cfd0eaf0289acc7e8bd8ff9badf5/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/yangjian/.gradle/caches/transforms-3/5486cfd0eaf0289acc7e8bd8ff9badf5/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/yangjian/Documents/Demo/demo/NativeAndroid/app/src/main/AndroidManifest.xml
+INJECTED from /Users/yangjian/Documents/Demo/demo/NativeAndroid/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/yangjian/Documents/Demo/demo/NativeAndroid/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yangjian/Documents/Demo/demo/NativeAndroid/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yangjian/Documents/Demo/demo/NativeAndroid/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/yangjian/Documents/Demo/demo/NativeAndroid/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yangjian/Documents/Demo/demo/NativeAndroid/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yangjian/Documents/Demo/demo/NativeAndroid/app/src/main/AndroidManifest.xml
