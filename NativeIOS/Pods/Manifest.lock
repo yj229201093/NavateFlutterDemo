@@ -2,33 +2,58 @@ PODS:
   - Flutter (1.0.0)
   - flutter_boost (0.0.2):
     - Flutter
+  - flutter_inappwebview (0.0.1):
+    - Flutter
+    - flutter_inappwebview/Core (= 0.0.1)
+    - OrderedSet (~> 5.0)
+  - flutter_inappwebview/Core (0.0.1):
+    - Flutter
+    - OrderedSet (~> 5.0)
   - FlutterPluginRegistrant (0.0.1):
     - Flutter
     - flutter_boost
+    - flutter_inappwebview
+    - webview_flutter
   - my_flutter (0.0.1):
+    - Flutter
+  - OrderedSet (5.0.0)
+  - webview_flutter (0.0.1):
     - Flutter
 
 DEPENDENCIES:
   - Flutter (from `../my_flutter/.ios/Flutter/engine`)
   - flutter_boost (from `../my_flutter/.ios/.symlinks/plugins/flutter_boost/ios`)
+  - flutter_inappwebview (from `../my_flutter/.ios/.symlinks/plugins/flutter_inappwebview/ios`)
   - FlutterPluginRegistrant (from `../my_flutter/.ios/Flutter/FlutterPluginRegistrant`)
   - my_flutter (from `../my_flutter/.ios/Flutter`)
+  - webview_flutter (from `../my_flutter/.ios/.symlinks/plugins/webview_flutter/ios`)
+
+SPEC REPOS:
+  trunk:
+    - OrderedSet
 
 EXTERNAL SOURCES:
   Flutter:
     :path: "../my_flutter/.ios/Flutter/engine"
   flutter_boost:
     :path: "../my_flutter/.ios/.symlinks/plugins/flutter_boost/ios"
+  flutter_inappwebview:
+    :path: "../my_flutter/.ios/.symlinks/plugins/flutter_inappwebview/ios"
   FlutterPluginRegistrant:
     :path: "../my_flutter/.ios/Flutter/FlutterPluginRegistrant"
   my_flutter:
     :path: "../my_flutter/.ios/Flutter"
+  webview_flutter:
+    :path: "../my_flutter/.ios/.symlinks/plugins/webview_flutter/ios"
 
 SPEC CHECKSUMS:
   Flutter: ac41d61a47ae5bf8195a5598d2d63754888ec0d5
   flutter_boost: 1b5f53a54ba73726829691db891e85f40b4f6494
-  FlutterPluginRegistrant: 03a06fa5f754c611bb6c96f42acf9432e8c4515d
+  flutter_inappwebview: bfd58618f49dc62f2676de690fc6dcda1d6c3721
+  FlutterPluginRegistrant: 25f104c110a2a03e52bf22f53a1852bfd29c6e76
   my_flutter: 5f71a42a61a499a9f322f2c0f62fc185a5807c9b
+  OrderedSet: aaeb196f7fef5a9edf55d89760da9176ad40b93c
+  webview_flutter: 3603125dfd3bcbc9d8d418c3f80aeecf331c068b
 
 PODFILE CHECKSUM: e0dacb276a9e293c08365936ba207c85e89bb333
 

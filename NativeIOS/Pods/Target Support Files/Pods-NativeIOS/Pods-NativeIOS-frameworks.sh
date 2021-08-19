@@ -175,13 +175,19 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/OrderedSet/OrderedSet.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/flutter_boost/flutter_boost.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/flutter_inappwebview/flutter_inappwebview.framework"
   install_framework "${PODS_ROOT}/../../my_flutter/.ios/Flutter/App.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/webview_flutter/webview_flutter.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/Flutter/Flutter.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/OrderedSet/OrderedSet.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/flutter_boost/flutter_boost.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/flutter_inappwebview/flutter_inappwebview.framework"
   install_framework "${PODS_ROOT}/../../my_flutter/.ios/Flutter/App.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/webview_flutter/webview_flutter.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/Flutter/Flutter.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then

@@ -1,7 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_boost/boost_navigator.dart';
+import 'package:my_flutter/home/flutter_h5_page.dart';
 import 'package:my_flutter/home/flutter_one_page.dart';
+import 'package:my_flutter/home/other_h5_page.dart';
 
 class HomePage extends StatefulWidget {
   final String data;
@@ -19,8 +21,9 @@ class _HomePageState extends State<HomePage> {
       'FlutterPushNativePage',
       'FlutterPushFlutterPage',
       'FlutterPushNativePageAndParameter',
-      'FlutterPushFlutterPageAndParameter',
       'FlutterPopNativePage',
+      'FlutterPushFlutterH5Page',
+      'FlutterPushOtherH5Page',
     ];
     return Scaffold(
       // key: key,
@@ -93,15 +96,18 @@ class _HomePageState extends State<HomePage> {
         }).then((value) => showTipIfNeeded(value.toString()));
         break;
       case 3:
-        Navigator.push(context, MaterialPageRoute(builder: (context) {
-          return FlutterOnePage(
-            data: "你好，WMai",
-          );
-        }));
-        break;
-      case 4:
         Map<String, Object> result = {'data': "我是Flutter返回的数sss据"};
         BoostNavigator.instance.pop(result);
+        break;
+      case 4:
+        Navigator.push(context, MaterialPageRoute(builder: (context) {
+          return FlutterH5Page();
+        }));
+        break;
+      case 5:
+        Navigator.push(context, MaterialPageRoute(builder: (context) {
+          return OtherH5Page();
+        }));
         break;
     }
   }

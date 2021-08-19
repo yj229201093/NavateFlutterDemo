@@ -21,6 +21,18 @@
       <excludeFolder url="file://$MODULE_DIR$/.ios/.symlinks/plugins/flutter_boost/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/.ios/.symlinks/plugins/flutter_boost/build" />
       <excludeFolder url="file://$MODULE_DIR$/.ios/.symlinks/plugins/flutter_boost/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/.ios/.symlinks/plugins/webview_flutter/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/.ios/.symlinks/plugins/webview_flutter/build" />
+      <excludeFolder url="file://$MODULE_DIR$/.ios/.symlinks/plugins/webview_flutter/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/.ios/.symlinks/plugins/flutter_inappwebview/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/.ios/.symlinks/plugins/flutter_inappwebview/build" />
+      <excludeFolder url="file://$MODULE_DIR$/.ios/.symlinks/plugins/flutter_inappwebview/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/.ios/.symlinks/plugins/flutter_inappwebview/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/.ios/.symlinks/plugins/flutter_inappwebview/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/.ios/.symlinks/plugins/flutter_inappwebview/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/.ios/.symlinks/plugins/webview_flutter/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/.ios/.symlinks/plugins/webview_flutter/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/.ios/.symlinks/plugins/webview_flutter/example/.pub" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Dart SDK" level="project" />
