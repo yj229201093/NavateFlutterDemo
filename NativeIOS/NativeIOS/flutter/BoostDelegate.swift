@@ -122,7 +122,5 @@ class BoostDelegate: NSObject,FlutterBoostDelegate {
             resultTable.removeValue(forKey: options.uniqueId)
         }
         
-        //
-        
     }
 }
