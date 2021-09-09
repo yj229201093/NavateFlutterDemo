@@ -17,12 +17,12 @@ class ViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewDidAppear(animated);
-        self.navigationController?.navigationBar.isHidden = false
+//        self.navigationController?.navigationBar.isHidden = false
     }
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillAppear(animated);
-        self.navigationController?.navigationBar.isHidden = true
+//        self.navigationController?.navigationBar.isHidden = true
     }
     
     override func viewDidLoad() {
@@ -37,7 +37,6 @@ class ViewController: UIViewController {
         
         self.view.addSubview(resultLabel)
         self.resultLabel.frame = CGRect.init(x: 100, y: 400, width: 300, height: 50);
-        
     }
     
     func setupButtn(title:String, y:Double) -> UIButton {
@@ -57,7 +56,7 @@ class ViewController: UIViewController {
             let options = FlutterBoostRouteOptions()
             options.pageName = "homePage"
             options.arguments = ["message" :"我是Navite数据 啦啦啦啦"]
-            options.opaque = true
+//            options.opaque = false
             //这个是push操作完成的回调，而不是页面关闭的回调！！！！
             options.completion = { completion in
                 print("打开Flutter页面了")

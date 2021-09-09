@@ -80,7 +80,7 @@ class _HomePageState extends State<HomePage> {
     switch (index) {
       case 0:
         BoostNavigator.instance.push("nativeTwoPage", arguments: {
-          'data': "flutter传过来的数据"
+          'data': "flutter传过来的数据11",
         }).then((value) => showTipIfNeeded(value.toString()));
         break;
       case 1:

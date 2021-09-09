@@ -38,10 +38,12 @@ class BoostDelegate: NSObject,FlutterBoostDelegate {
         if(isPresent){
             self.navigationController?.present(targetViewController, animated: isAnimated, completion: nil)
         }else{
+            print("navigationController = %@", self.navigationController as Any);
             UIApplication.shared.isIdleTimerDisabled = false
             self.navigationController?.interactivePopGestureRecognizer?.isEnabled = true;
             self.navigationController?.pushViewController(targetViewController, animated: isAnimated)
         }
+        self.navigationController?.setNavigationBarHidden(false, animated: true);
     }
     
     // NativePushFlutter
@@ -61,14 +63,18 @@ class BoostDelegate: NSObject,FlutterBoostDelegate {
         
         //如果是present模式 ，或者要不透明模式，那么就需要以present模式打开页面
         if(isPresent || !options.opaque){
+//            let nav = UINavigationController.init(rootViewController: vc);
+//            nav.modalPresentationStyle = .fullScreen
             self.navigationController?.present(vc, animated: isAnimated, completion: nil)
+//            self.navigationController = nav;
         }else{
             self.navigationController?.pushViewController(vc, animated: isAnimated)
         }
         
+        self.navigationController?.setNavigationBarHidden(true, animated: true);
         // 禁用返回手势
-        UIApplication.shared.isIdleTimerDisabled = true
-                self.navigationController?.interactivePopGestureRecognizer?.isEnabled = false;
+//        UIApplication.shared.isIdleTimerDisabled = true
+//        self.navigationController?.interactivePopGestureRecognizer?.isEnabled = false;
     }
     
 

@@ -12,7 +12,7 @@ class NativeTwoController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewDidAppear(animated);
-        self.navigationController?.navigationBar.isHidden = false
+//        self.navigationController?.navigationBar.isHidden = false
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -26,7 +26,7 @@ class NativeTwoController: UIViewController {
         super.viewWillAppear(animated);
 //        UIApplication.shared.isIdleTimerDisabled = false
 //                self.navigationController?.interactivePopGestureRecognizer?.isEnabled = true;
-        self.navigationController?.navigationBar.isHidden = true
+//        self.navigationController?.navigationBar.isHidden = true
     }
     
     override func viewDidDisappear(_ animated: Bool) {

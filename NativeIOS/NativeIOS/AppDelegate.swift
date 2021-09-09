@@ -28,7 +28,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let rootVC = ViewController();
     
         let navigationViewController = UINavigationController(rootViewController: rootVC)
-        navigationViewController.navigationBar.isHidden = true
+//        navigationViewController.navigationBar.isHidden = true
         
         self.window?.rootViewController = navigationViewController
         
