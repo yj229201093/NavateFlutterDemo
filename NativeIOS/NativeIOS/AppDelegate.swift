@@ -24,7 +24,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         
         
-        
         let rootVC = ViewController();
     
         let navigationViewController = UINavigationController(rootViewController: rootVC)
