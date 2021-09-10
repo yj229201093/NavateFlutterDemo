@@ -62,15 +62,6 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  flutter_boost:
-    dependency: "direct main"
-    description:
-      path: "."
-      ref: "v3.0-preview.9"
-      resolved-ref: fe438a61ffd6df6af51226b5a48bb9f533b7a1bc
-      url: "https://github.com/alibaba/flutter_boost.git"
-    source: git
-    version: "3.0.0"
   flutter_inappwebview:
     dependency: "direct main"
     description:

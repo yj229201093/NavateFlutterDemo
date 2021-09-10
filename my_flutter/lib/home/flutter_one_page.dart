@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_boost/boost_navigator.dart';
 
 class FlutterOnePage extends StatelessWidget {
   final String data;
@@ -12,7 +11,6 @@ class FlutterOnePage extends StatelessWidget {
       appBar: CupertinoNavigationBar(
         leading: CupertinoNavigationBarBackButton(
           onPressed: () {
-            // BoostNavigator.instance.pop();
             Navigator.pop(context);
           },
         ),

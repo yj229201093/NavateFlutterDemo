@@ -16,7 +16,6 @@
 		C7367AD126BA388600D0DC49 /* NativeIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7367AD026BA388600D0DC49 /* NativeIOSTests.swift */; };
 		C7367ADC26BA388600D0DC49 /* NativeIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7367ADB26BA388600D0DC49 /* NativeIOSUITests.swift */; };
 		C7367AEA26BA6BEF00D0DC49 /* NativeTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7367AE926BA6BEF00D0DC49 /* NativeTwo.swift */; };
-		C7367AED26BA71B800D0DC49 /* BoostDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7367AEC26BA71B800D0DC49 /* BoostDelegate.swift */; };
 		C759585126BCE2E600C6E0A2 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C759585026BCE2E600C6E0A2 /* UIViewController+Extension.swift */; };
 		C76C7B2326BB811300B0FF50 /* NativeThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76C7B2226BB811300B0FF50 /* NativeThree.swift */; };
 		C76C7B2526BB812200B0FF50 /* NativeFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76C7B2426BB812200B0FF50 /* NativeFour.swift */; };
@@ -57,7 +56,6 @@
 		C7367ADB26BA388600D0DC49 /* NativeIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeIOSUITests.swift; sourceTree = "<group>"; };
 		C7367ADD26BA388600D0DC49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7367AE926BA6BEF00D0DC49 /* NativeTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeTwo.swift; sourceTree = "<group>"; };
-		C7367AEC26BA71B800D0DC49 /* BoostDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoostDelegate.swift; sourceTree = "<group>"; };
 		C759585026BCE2E600C6E0A2 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		C76C7B2226BB811300B0FF50 /* NativeThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeThree.swift; sourceTree = "<group>"; };
 		C76C7B2426BB812200B0FF50 /* NativeFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeFour.swift; sourceTree = "<group>"; };
@@ -163,7 +161,6 @@
 		C7367AEB26BA71AC00D0DC49 /* flutter */ = {
 			isa = PBXGroup;
 			children = (
-				C7367AEC26BA71B800D0DC49 /* BoostDelegate.swift */,
 			);
 			path = flutter;
 			sourceTree = "<group>";
@@ -366,7 +363,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C759585126BCE2E600C6E0A2 /* UIViewController+Extension.swift in Sources */,
-				C7367AED26BA71B800D0DC49 /* BoostDelegate.swift in Sources */,
 				C7367ABE26BA388500D0DC49 /* ViewController.swift in Sources */,
 				C76C7B2526BB812200B0FF50 /* NativeFour.swift in Sources */,
 				C76C7B2326BB811300B0FF50 /* NativeThree.swift in Sources */,

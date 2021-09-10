@@ -6,34 +6,33 @@
 //
 
 import UIKit
-import flutter_boost
+import Flutter
+import FlutterPluginRegistrant
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
+    var flutterEngine: FlutterEngine?
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
     
+        self.initFlutterEngine();
         self.window = UIWindow(frame: UIScreen.main.bounds)
         self.window?.makeKeyAndVisible()
-        
-        //创建代理，做初始化操作
-        let delegate = BoostDelegate()
-        FlutterBoost.instance().setup(application, delegate: delegate) { engine in
-            print("初始化");
-            FlutterBoostPlugin.getPlugin(engine);
-        }
-        
-        
         let rootVC = ViewController();
-    
         let navigationViewController = UINavigationController(rootViewController: rootVC)
-//        navigationViewController.navigationBar.isHidden = true
-        
         self.window?.rootViewController = navigationViewController
-        
-        delegate.navigationController = navigationViewController
         return true
     }
+    
+    
+    func initFlutterEngine() {
+        flutterEngine = FlutterEngine.init(name: "FlutterEngine")
+        flutterEngine?.run();
+        GeneratedPluginRegistrant .register(with: flutterEngine!)
+    }
+    
+    
 
 }
 

@@ -6,18 +6,15 @@
 //
 
 import UIKit
-import flutter_boost
 
 class NativeFourController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewDidAppear(animated);
-//        self.navigationController?.navigationBar.isHidden = false
     }
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillAppear(animated);
-//        self.navigationController?.navigationBar.isHidden = true
     }
     
     var data:String = ""
@@ -54,26 +51,7 @@ class NativeFourController: UIViewController {
             self.navigationController?.popToRootViewController(animated: true);
         } else {
             self.navigationController?.popViewController(animated: true);
-//            let options = FlutterBoostRouteOptions()
-//            options.pageName = "flutterOnePage"
-//            options.arguments = ["我是key" :"我是value"]
-//            options.opaque = true
-//            //这个是push操作完成的回调，而不是页面关闭的回调！！！！
-//            options.completion = { completion in
-//                print("打开Flutter页面了")
-//                print("open operation is completed")
-//            }
-            
-//            //这个是页面关闭并且返回数据的回调，回调实际需要根据您的Delegate中的popRoute来调用
-//            options.onPageFinished = { dic in
-//                print("Flutter页面关闭回调了")
-//                print(dic as Any)
-//            }
-//
-//            FlutterBoost.instance().open(options)
         }
-          
-        
     }
     
 

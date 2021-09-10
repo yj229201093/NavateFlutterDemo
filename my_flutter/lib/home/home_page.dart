@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_boost/boost_navigator.dart';
 import 'package:my_flutter/home/flutter_h5_page.dart';
 import 'package:my_flutter/home/flutter_one_page.dart';
 import 'package:my_flutter/home/other_h5_page.dart';
@@ -20,19 +19,15 @@ class _HomePageState extends State<HomePage> {
     final btnString = [
       'FlutterPushNativePage',
       'FlutterPushFlutterPage',
-      'FlutterPushNativePageAndParameter',
       'FlutterPopNativePage',
       'FlutterPushFlutterH5Page',
       'FlutterPushOtherH5Page',
     ];
     return Scaffold(
-      // key: key,
       backgroundColor: Colors.white,
       appBar: CupertinoNavigationBar(
         leading: CupertinoNavigationBarBackButton(
-          onPressed: () {
-            BoostNavigator.instance.pop();
-          },
+          onPressed: () {},
         ),
         middle: Text('FlutterBoost'),
       ),
@@ -79,9 +74,6 @@ class _HomePageState extends State<HomePage> {
   void pushToPageHandle(int index) {
     switch (index) {
       case 0:
-        BoostNavigator.instance.push("nativeTwoPage", arguments: {
-          'data': "flutter传过来的数据11",
-        }).then((value) => showTipIfNeeded(value.toString()));
         break;
       case 1:
         Navigator.push(context, MaterialPageRoute(builder: (context) {
@@ -91,20 +83,13 @@ class _HomePageState extends State<HomePage> {
         }));
         break;
       case 2:
-        BoostNavigator.instance.push("nativeTwoPage", arguments: {
-          'data': "flutter传过来的数据"
-        }).then((value) => showTipIfNeeded(value.toString()));
         break;
       case 3:
-        Map<String, Object> result = {'data': "我是Flutter返回的数sss据"};
-        BoostNavigator.instance.pop(result);
-        break;
-      case 4:
         Navigator.push(context, MaterialPageRoute(builder: (context) {
           return FlutterH5Page();
         }));
         break;
-      case 5:
+      case 4:
         Navigator.push(context, MaterialPageRoute(builder: (context) {
           return OtherH5Page();
         }));
